@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Chat de atendimento</title>
+    <link rel="stylesheet" href="chat.css">
+  </head>
+  <body>
+    <div id="chat-page">
+      <header>
+        <h1>Atendimento online</h1>
+      </header>
+      <div id="chat">
+        <div class ="attendant">
+          <p class = "msg-at"><strong>Atendente diz:</strong></p>
+          <p class="msg-chat">Bla bla bla </p>
+        </div>
+        <div class ="attendant">
+          <p class = "msg-at"><strong>Atendente diz:</strong></p>
+          <p class="msg-chat">Bla bla bla bla bla</p>
+        </div>
+        <div class ="user-message">
+          <p class = "msg-user"><strong>Você diz:</strong></p>
+          <p class ="msg-chat"> bla bla bla</p>
+        </div>
+        <div class ="user-message">
+          <p class = "msg-user"><strong>Você diz:</strong></p>
+          <p class ="msg-chat">bla bla bla</p>
+        </div>
+        <div class ="attendant">
+          <p class = "msg-at"><strong>Atendente diz:</strong></p>
+          <p class ="msg-chat"> bla bla bla </p>
+        </div>
+        <div class ="user-message">
+          <p class = "msg-user"><strong>Você diz:</strong></p>
+          <p class ="msg-chat">bla bla bla</p>
+        </div>
+        <div class ="attendant">
+          <p class = "msg-at"></p><strong>Atendente diz:</strong></p>
+          <p class ="msg-chat">bla bla bla </p>
+        </div>
+      </div>
+      <form id="send-message" action="index.html" method="post">
+        <input 
+        autocomplete="off"
+        id = "send" 
+        name="send" 
+        type= "Text" 
+        placeholder = "Digite sua mensagem..."/>  
+        <button 
+        id = "btEnvia"
+        name = "btEnvia"
+        type="submit">ENVIAR</button>
+      </form>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
